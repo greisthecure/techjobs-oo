@@ -69,7 +69,7 @@ public class JobController {
         model.addAttribute("position", newJob.getPositionType());
         model.addAttribute("skill", newJob.getCoreCompetency());
 
-        return "job-data";
+        return "job-detail";
 
     }
 }
